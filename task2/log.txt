@@ -1,0 +1,20 @@
+uptime info
+15:19:40 up 2:56, 1 user, load average: 0,26, 0,20, 0,19
+ 
+Current users
+15:19:40 up 2:56, 1 user, load average: 0,26, 0,20, 0,19 USER TTY FROM LOGIN@ IDLE JCPU PCPU WHAT nadiia tty2 tty2 12:23 2:56m 0.07s 0.05s /usr/libexec/gnome-session-binary --session=ubuntu
+ 
+Recent logins
+nadiia tty2 Sun Apr 2 12:23 still logged in tty2 reboot system boot Sun Apr 2 12:23 still running 5.19.0-38-generic nadiia tty2 Tue Mar 28 23:08 - down (01:15) tty2 reboot system boot Tue Mar 28 23:07 - 00:23 (01:16) 5.19.0-35-generic reboot system boot Tue Mar 28 22:13 - 22:14 (00:00) 5.19.0-35-generic nadiia tty2 Thu Mar 23 22:19 - down (1+17:06) tty2 reboot system boot Thu Mar 23 22:18 - 15:25 (1+17:07) 5.19.0-35-generic wtmp begins Thu Mar 23 22:18:04 2023
+
+TOP-10 processes by CPU usage
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND nadiia 1795 1.8 6.6 4451312 264968 ? Ssl 12:23 3:14 /usr/bin/gnome-shell nadiia 3335 0.6 2.4 836992 97444 ? Sl 12:40 1:02 /usr/bin/nautilus --gapplication-service root 648 0.2 0.2 255124 8524 ? Ssl 12:23 0:21 /usr/bin/vmtoolsd nadiia 3196 0.2 1.6 585544 63836 ? Ssl 12:32 0:27 /usr/libexec/gnome-terminal-server systemd+ 602 0.1 0.1 14828 6172 ? Ss 12:23 0:12 /lib/systemd/systemd-oomd root 753 0.1 0.8 1096768 34528 ? Ssl 12:23 0:20 /usr/lib/snapd/snapd nadiia 2077 0.1 0.9 299736 36644 ? Sl 12:24 0:20 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4 root 3383 0.1 0.0 0 0 ? I 12:40 0:09 [kworker/1:2-events] root 6171 0.1 0.0 0 0 ? I 14:59 0:01 [kworker/0:0-events]
+
+TOP-10 processes by RAM usage
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND nadiia 1795 1.8 6.6 4451312 264968 ? Ssl 12:23 3:14 /usr/bin/gnome-shell nadiia 3335 0.6 2.4 836992 97444 ? Sl 12:40 1:02 /usr/bin/nautilus --gapplication-service nadiia 2184 0.0 1.9 226736 77924 ? S 12:24 0:03 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.3BSP21 -listen 4 -listen 5 -displayfd 6 -initfd 7 nadiia 2250 0.0 1.9 551288 77316 ? Ssl 12:24 0:00 /usr/libexec/gsd-xsettings nadiia 2244 0.0 1.7 2821708 70632 ? Sl 12:24 0:05 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:800:600:1:27:0:74:0:0 nadiia 3196 0.2 1.6 585544 63836 ? Ssl 12:32 0:27 /usr/libexec/gnome-terminal-server nadiia 2093 0.0 1.2 816832 50844 ? Sl 12:24 0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify nadiia 2077 0.1 0.9 299736 36644 ? Sl 12:24 0:20 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4 root 753 0.1 0.8 1096768 34528 ? Ssl 12:23 0:20 /usr/lib/snapd/snapd
+
+Virtual Memory usage
+total used free shared buff/cache available Mem: 3,8Gi 1,7Gi 159Mi 34Mi 1,9Gi 1,8Gi Swap: 2,1Gi 24Mi 2,1Gi
+
+Usage of disk space
+Filesystem Size Used Avail Use% Mounted on tmpfs 389M 2,0M 387M 1% /run /dev/sda3 20G 13G 6,0G 68% / tmpfs 1,9G 0 1,9G 0% /dev/shm tmpfs 5,0M 4,0K 5,0M 1% /run/lock /dev/sda2 512M 6,1M 506M 2% /boot/efi tmpfs 389M 124K 389M 1% /run/user/1000 /dev/sr1 4,6G 4,6G 0 100% /media/nadiia/Ubuntu 22.04.2 LTS amd64 /dev/sr0 145M 145M 0 100% /media/nadiia/CDROM
